@@ -1,0 +1,1 @@
+All the graphs must be in this folder.

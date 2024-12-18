@@ -1,0 +1,131 @@
+Successfully bound to port 9800
+	(9800) waiting to accept next message
+	(9800) accepted message... beginning parse
+	sending message (3) to 127.0.0.1:9800
+	sending message (3) to 127.0.0.1:9800
+	(9800) accepted message of type 3
+Manager: got node join request from port 29664
+Assigned node id 29664
+29664,Manager: Updating neighbors for node 29664
+	(9800) waiting to accept next message
+	(9800) accepted message... beginning parse
+	sending message (3) to 127.0.0.1:9800
+	(9800) accepted message of type 3
+Manager: got node join request from port 34706
+Assigned node id 34706
+34706,29664,Manager: Updating neighbors for node 34706
+Manager: Updating next neighbor (29664) for node 34706
+Manager: Getting neighbor updates for 29664
+Manager: Creating neighbor update message for 29664
+Manager: Sending neighbor update message to 29664
+	sending message (9) to 127.0.0.1:29664
+	received return value for (3) from 127.0.0.1:9800
+	sending message (3) to 127.0.0.1:9800
+Storage: recieved id 29664 successfully
+Successfully bound to port 29664
+	(29664) waiting to accept next message
+	(29664) accepted message... beginning parse
+	(29664) accepted message of type 9
+Got neighbor update message for node 29664
+	sending message (3) to 127.0.0.1:9800
+	received return value for (9) from 127.0.0.1:29664
+creating backing up update message
+Creating duplicate update message
+Finished Creating duplicate update message
+sending backing up update message
+	sending message (10) to 127.0.0.1:29664
+	sending message (3) to 127.0.0.1:9800
+	(29664) waiting to accept next message
+	(29664) accepted message... beginning parse
+	(29664) accepted message of type 10
+	received return value for (10) from 127.0.0.1:29664
+finished sending backing up update message
+	sending message (69) to 127.0.0.1:29664
+	sending message (3) to 127.0.0.1:9800
+	(29664) waiting to accept next message
+	(29664) accepted message... beginning parse
+	(29664) accepted message of type 69
+GOT A CUCK UPDATE OKAY
+	received return value for (69) from 127.0.0.1:29664
+creating backed up update message
+Creating duplicate update message
+Finished Creating duplicate update message
+sending backed up update message
+	sending message (11) to 127.0.0.1:29664
+	(29664) waiting to accept next message
+	(29664) accepted message... beginning parse
+	(29664) accepted message of type 11
+unpacking nodes
+unpacked nodes
+	received return value for (11) from 127.0.0.1:29664
+finished sending backed up update message
+	(9800) waiting to accept next message
+	(9800) accepted message... beginning parse
+	(9800) accepted message of type 3
+Manager: got node join request from port 61327
+Assigned node id 61327
+61327,34706,29664,Manager: Updating neighbors for node 61327
+Manager: Updating prev neighbor (29664) for node 61327
+Manager: Getting neighbor updates for 29664
+Manager: Creating neighbor update message for 29664
+Manager: Sending neighbor update message to 29664
+	sending message (9) to 127.0.0.1:29664
+	(29664) waiting to accept next message
+	(29664) accepted message... beginning parse
+	(29664) accepted message of type 9
+Got neighbor update message for node 29664
+	received return value for (9) from 127.0.0.1:29664
+Manager: Updating next neighbor (34706) for node 61327
+Manager: Getting neighbor updates for 34706
+Manager: Creating neighbor update message for 34706
+	received return value for (3) from 127.0.0.1:9800
+Manager: Sending neighbor update message to 34706
+Storage: recieved id 34706 successfully
+	sending message (9) to 127.0.0.1:34706
+Successfully bound to port 34706
+	(34706) waiting to accept next message
+	(34706) accepted message... beginning parse
+	(29664) waiting to accept next message
+	(34706) accepted message of type 9
+Got neighbor update message for node 34706
+	received return value for (9) from 127.0.0.1:34706
+	(34706) waiting to accept next message
+creating backing up update message
+Creating duplicate update message
+Finished Creating duplicate update message
+sending backing up update message
+	sending message (10) to 127.0.0.1:34706
+	(34706) accepted message... beginning parse
+	(34706) accepted message of type 10
+	(34706) waiting to accept next message
+	received return value for (10) from 127.0.0.1:34706
+finished sending backing up update message
+	sending message (69) to 127.0.0.1:34706
+	(34706) accepted message... beginning parse
+	(34706) accepted message of type 69
+GOT A CUCK UPDATE OKAY
+	(34706) waiting to accept next message
+	received return value for (69) from 127.0.0.1:34706
+creating backing up update message
+Creating duplicate update message
+Finished Creating duplicate update message
+sending backing up update message
+	sending message (10) to 127.0.0.1:29664
+	(29664) accepted message... beginning parse
+	(29664) accepted message of type 10
+	received return value for (10) from 127.0.0.1:29664
+finished sending backing up update message
+	sending message (69) to 127.0.0.1:29664
+	(29664) waiting to accept next message
+	(29664) accepted message... beginning parse
+	(29664) accepted message of type 69
+GOT A CUCK UPDATE OKAY
+	received return value for (69) from 127.0.0.1:29664
+Error! sending message to joining node! Deadlock imminent!
+creating backed up update message
+Creating duplicate update message
+Finished Creating duplicate update message
+sending backed up update message
+	sending message (11) to 127.0.0.1:61327
+	(29664) waiting to accept next message
+	sending message (5) to 127.0.0.1:9800
